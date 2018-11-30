@@ -15,3 +15,6 @@ insert into student (nom,prenom,mail,class_id) values ('Alvara','Pan','Alvara.Pa
 insert into student (nom,prenom,mail,class_id) values ('Kenray','Akyza','Kenray.Akyza@gmail.com','2');
 
 
+insert into assessment (titre,matiere,formateur,jour_controle,class_id) values ('eval-Git','Git','Pierre','2018-11-28','1');
+insert into assessment (titre,matiere,formateur,jour_controle,class_id) values ('eval-SQL','SQL','Pierre','2018-11-30','2');
+
