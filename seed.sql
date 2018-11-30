@@ -26,7 +26,7 @@ INSERT INTO absence (jour_absence, student_id) VALUES ('2018-11-30', 2);
 
 insert into assessment (titre,matiere,formateur,jour_controle,class_id) values ('eval-Git','Git','Pierre','2018-11-28','1');
 insert into assessment (titre,matiere,formateur,jour_controle,class_id) values ('eval-SQL','SQL','Pierre','2018-11-30','2');
-insert into assessment (titre,matiere,formateur,jour_controle,class_id) values ('eval-Git','Git','Laurent','2018-09-28','1');
+insert into assessment (titre,matiere,formateur,jour_controle,class_id) values ('eval-PHP','PHP','Laurent','2018-09-28','1');
 
 insert into grade (note,student_id,assessment_id) values ('10','1','1');
 insert into grade (note,student_id,assessment_id) values ('15','2','1');
