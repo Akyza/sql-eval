@@ -32,7 +32,7 @@ CREATE TABLE assessment(
 
 CREATE TABLE grade (
 	id_grade INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY NOT NULL,
-	note INT(2) UNSIGNED,
+	note INT(2) UNSIGNED NULL,
 	student_id INT(10) NOT NULL,
 	assessment_id INT(10) NOT NULL,
     ADD CONSTRAINT FK_grade_student FOREIGN KEY (student_id) REFERENCES student(id_student),
