@@ -1,1 +1,1 @@
-select * from student
+select count(*) from student

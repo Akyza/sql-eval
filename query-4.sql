@@ -1,0 +1,1 @@
+select assessment.matiere, avg(grade.note) from assessment, grade where assessment.id_assessment=grade.assessment_id group by assessment.matiere
