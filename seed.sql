@@ -30,3 +30,8 @@ insert into assessment (matiere,formateur,jour_controle,class_id) values ('SQL',
 insert into grade (note,student_id,assessment_id) values ('10','1','1');
 insert into grade (note,student_id,assessment_id) values ('15','2','1');
 insert into grade (note,student_id,assessment_id) values ('12','3','1');
+
+insert into grade (note,student_id,assessment_id) values ('10','1','3');
+insert into grade (note,student_id,assessment_id) values ('15','2','3');
+insert into grade (note,student_id,assessment_id) values (null,'2','3');
+
