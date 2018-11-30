@@ -1,0 +1,1 @@
+select class_id,count(note) from assessment,grade where grade.assessment_id= assessment.id_assessment group by class_id
