@@ -25,7 +25,7 @@ CREATE TABLE assessment(
 	titre VARCHAR(255) NOT NULL,
 	matiere VARCHAR(255) NOT NULL,
 	formateur VARCHAR(255) NOT NULL,
-	jour_contrôle DATE NOT NULL,
+	jour_controle DATE NOT NULL,
 	class_id INT(10) NOT NULL,
     ADD CONSTRAINT FK_assessment_class FOREIGN KEY (class_id) REFERENCES class(id_class)
 );
