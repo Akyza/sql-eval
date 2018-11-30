@@ -21,3 +21,5 @@ INSERT INTO absence (jour_absence, student_id) VALUES ('2018-05-06', 6);
 INSERT INTO absence (jour_absence, student_id) VALUES ('2018-11-22', 3);
 INSERT INTO absence (jour_absence, student_id) VALUES ('2018-06-21', 1);
 INSERT INTO absence (jour_absence, student_id) VALUES ('2018-09-23', 5);
+INSERT INTO absence (jour_absence, student_id) VALUES ('2018-11-29', 2);
+INSERT INTO absence (jour_absence, student_id) VALUES ('2018-11-30', 2);
